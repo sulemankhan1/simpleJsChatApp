@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Js Chat System.</title>
+    <style media="screen">
+      .msg {
+        padding: 5px; margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JS Chat System.</h1>
+    <input type="text" id="input" onkeyup="saveDraft()">
+    <button type="button" onclick="render()">Send</button>
+    <button type="button" onclick="deleteAll()">Delete All</button>
+    <div id="messages_container">
+
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
